@@ -17,11 +17,6 @@
   margin-right: 1rem;
 }
 
-/* .headerContent {
-  display: flex;
-  align-items: center;
-} */
-
 .sparkleLogo {
   width: 2rem;
   height: 2rem;
@@ -29,6 +24,8 @@
 
 .profileImage {
   border-radius: 8px;
+  width: 100%; /* Ensure the image takes full width */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .main {
@@ -37,10 +34,45 @@
   gap: 10rem;
 }
 
-
 .bigName {
   color: rgb(198, 75, 23);
   font-weight: lighter;
   font-family: "EB Garamond", serif;
   font-size: 3rem;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header a {
+    margin-bottom: 0.5rem;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .bigName {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .profileImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .whyUGC, .about {
+    text-align: center;
+  }
 }
