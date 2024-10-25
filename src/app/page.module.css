@@ -25,8 +25,8 @@
 
 .profileImage {
   border-radius: 8px;
-  width: 100%; /* Ensure the image takes full width */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
 .main {
@@ -59,7 +59,6 @@
   line-height: 1.5;
 }
 
-/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
   .container {
     padding: 1rem;
