@@ -5,15 +5,15 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <span>
+        <Link href="/">
+          Home
+        </Link>
         <Link href="/about">
           About
         </Link>
         <Link href="/work">
           Work
         </Link>
-      </span>
-      <span>
-        <p>@yourusername</p>
       </span>
     </header>
   );

@@ -8,7 +8,7 @@ const geistSans = localFont({
 });
 
 export const metadata = {
-  title: "Rishika Reddy Valluru - UI/UX Designer",
+  title: "Rishika Reddy Valluru",
   description: "Portfolio showcasing work and skills",
 };
 
