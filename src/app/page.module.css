@@ -92,6 +92,52 @@
   line-height: 1.5;
 }
 
+.experienceEducation {
+  margin-top: 2rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timelineItem {
+  display: flex;
+  align-items: flex-start;
+}
+
+.timelineDate {
+  flex: 0 0 150px;
+  font-weight: bold;
+  color: #555;
+}
+
+.timelineContent {
+  flex: 1;
+}
+
+.timelineContent h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.timelineContent p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: #777;
+}
+
+.educationHeading, .experienceHeading {
+  margin-bottom: 20px;
+}
+
+.timeline {
+  margin-bottom: 20px;
+}
+
+
 .button74 {
   width: 20%;
   margin: 0 auto;
